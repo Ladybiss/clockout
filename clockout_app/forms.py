@@ -1,5 +1,6 @@
 from django import forms
 
+
 class DataForm(forms.Form):
     in_morning = forms.TimeField(label='Morning clock in',)
     out_lunch = forms.TimeField(label='Lunch break start',)
